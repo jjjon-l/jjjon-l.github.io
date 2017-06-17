@@ -2,7 +2,7 @@ body {
 	background-color:#cccc99;
 	text-align: center;
 	background: url(https://raw.githubusercontent.com/jjjon-l/jjjon-l.github.io/master/unit_3/images/background.jpg);
-	background: cover;
+	background size: contain;
 }
 
 h1, h3 {
