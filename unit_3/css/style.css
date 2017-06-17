@@ -1,8 +1,12 @@
 body {
-	background-color:#6dd0f7;
+	background-color:#cccc99;
 	text-align: center;
 }
 
-h1, h3, p, ul, li {
-	color:#ec008c;
+h1, h3, {
+	color:#003366;
+}
+
+p, ul, li, {
+	color:#003333;
 }
