@@ -23,7 +23,7 @@ ul {
 	list-style-position: inside;
 }
 
-div.neighbors {
+.neighbors {
 	width: 400px
 	background: url(https://raw.githubusercontent.com/jjjon-l/jjjon-l.github.io/master/unit_3/images/background.jpg);
 	box-shadow: 10px 10px 5px #888888
