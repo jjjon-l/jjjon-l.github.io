@@ -12,3 +12,9 @@ h1, h3 {
 p, ul, li {
 	color:#003333;
 }
+
+.center{
+	width:200px;
+	margin:0 auto;
+	text-align:left;
+}
