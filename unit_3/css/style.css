@@ -22,3 +22,7 @@ p, ul, li {
 ul {
 	list-style-position: inside;
 }
+
+#neighbors {
+	box-shadow: 10px 10px 5px #888888
+}
