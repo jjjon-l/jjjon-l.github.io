@@ -18,3 +18,7 @@ p, ul, li {
 	margin:0 auto;
 	text-align:left;
 }
+
+ul {
+	list-style-position: inside;
+}
