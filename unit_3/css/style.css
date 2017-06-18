@@ -27,8 +27,7 @@ ul {
 .neighbors {
 	width: 400px;
 	box-shadow: 10px 10px 5px #888888;
-	text-align: center;
-	background-position: center;
+	margin: auto;
 }
 
 h3 {
