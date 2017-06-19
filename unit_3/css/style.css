@@ -9,7 +9,8 @@ body {
 
 h1 {
 	color:#003366;
-	font-style: bold italic;
+	font-style: italic;
+	font-weight: bold;
 	text-align: center;
 }
 
@@ -27,6 +28,7 @@ ul {
 	box-shadow: 10px 10px 5px #888888;
 	width: 400px;
 	background-color: #FFFFFF;
+	margin: auto;
 }
 
 h3 {
