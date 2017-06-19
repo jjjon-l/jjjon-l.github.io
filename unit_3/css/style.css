@@ -3,6 +3,8 @@ body {
 	text-align: center;
 	background: url(http://cdn.wallpapersafari.com/86/72/Zq7o6L.jpg);
 	background-size: cover;
+	font-family: Arial;
+
 }
 
 h1 {
@@ -22,6 +24,7 @@ p, ul, li {
 ul {
 	text-align: center;
 	list-style-position: inside;
+	font-style: italic;
 }
 
 .neighbors {
@@ -33,4 +36,5 @@ ul {
 h3 {
 	font-style: italic;
 	color:#003366;
+	font-family: Arial;
 }
