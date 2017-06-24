@@ -32,8 +32,9 @@ ul {
 	line-height: 0px;
 }
 
-h3 {
+#slogan {
 	font-style: italic;
+	font-size: 16px;
 	color:#003366;
 	font-family: Arial;
 	text-align: center;
