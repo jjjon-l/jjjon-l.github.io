@@ -34,8 +34,9 @@ ul {
 
 #slogan {
 	font-style: italic;
-	font-size: 16px;
+	font-size: 24px;
 	color:#003366;
+	font-weight: bold;
 	font-family: Arial;
 	text-align: center;
 }
