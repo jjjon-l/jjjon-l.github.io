@@ -30,18 +30,95 @@ ul {
 	background-color: #FFFFFF;
 	margin: auto;
 	line-height: 0px;
-	padding-top: 20px;
 }
 
-#slogan {
+.slogan {
 	font-style: italic;
 	font-size: 24px;
 	color:#003366;
 	font-weight: bold;
 	font-family: Arial;
 	text-align: center;
+	padding-bottom: 15px;
 }
 
-#welcome {
+.body_text {
 	padding-top: 10px;
+}
+
+.staffer {
+	width: 200px;
+	padding-right: 20px
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	position: relative;
+	width: 200px;
+	margin: auto;
+	display: inline-block;
+	padding: 15px;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.staff_images {
+	display: inline-block;
+}
+
+#brendan_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 15px;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(file:///Volumes/HD%201/General%20Assembly/jjjon-l.github.io/unit_3/images/brendan2.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+#chad_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 15px;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(file:///Volumes/HD%201/General%20Assembly/jjjon-l.github.io/unit_3/images/mike-profile.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+.container:hover #brendan_overlay{
+	opacity: 1;
+}
+
+.container:hover #chad_overlay{
+	opacity: 1;
+}
+
+.hover_effect {
+	transform: translate(-50%, -50%)
+	-ms-transform: translate(-50%, -50%);
+}
+
+#staff_shadow {
+	box-shadow: 10px 10px 5px #888888;
+	width: 200px;
+	background-color: #FFFFFF;
+	margin: auto;
+	line-height: 0px;
 }
