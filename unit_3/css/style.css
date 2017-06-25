@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background-color: #e8d0a9;
+	background-color: #c1dad6;
 	background-size: cover;
 	font-family: Arial;
 
@@ -39,6 +39,7 @@ ul {
 	font-family: Arial;
 	text-align: center;
 	padding-bottom: 15px;
+	padding-top: 15px;
 }
 
 .body_text {
@@ -69,7 +70,7 @@ ul {
 
 .staff_images {
 	display: block;
-	background-color: #DEFDEF;
+	background-color: #acd1e9;
 	background-position: center;
 	border-style: solid;
 }
