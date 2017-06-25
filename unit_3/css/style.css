@@ -1,7 +1,6 @@
 body {
-	background-color:#cccc99;
 	text-align: center;
-	background: url(http://cdn.wallpapersafari.com/86/72/Zq7o6L.jpg);
+	background-color: #e8d0a9;
 	background-size: cover;
 	font-family: Arial;
 
@@ -69,7 +68,10 @@ ul {
 }
 
 .staff_images {
-	display: inline-block;
+	display: block;
+	background-color: #DEFDEF;
+	background-position: center;
+	border-style: solid;
 }
 
 #brendan_overlay {
@@ -97,7 +99,37 @@ ul {
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
+	background-image: url(file:///Volumes/HD%201/General%20Assembly/jjjon-l.github.io/unit_3/images/chad-profile.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+#mike_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 15px;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
 	background-image: url(file:///Volumes/HD%201/General%20Assembly/jjjon-l.github.io/unit_3/images/mike-profile.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+#dave_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 15px;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(file:///Volumes/HD%201/General%20Assembly/jjjon-l.github.io/unit_3/images/dave-profile.jpg);
 	background-size: 200px 200px;
 	background-repeat: no-repeat;
 }
@@ -107,6 +139,14 @@ ul {
 }
 
 .container:hover #chad_overlay{
+	opacity: 1;
+}
+
+.container:hover #mike_overlay{
+	opacity: 1;
+}
+
+.container:hover #dave_overlay{
 	opacity: 1;
 }
 
@@ -122,3 +162,4 @@ ul {
 	margin: auto;
 	line-height: 0px;
 }
+
