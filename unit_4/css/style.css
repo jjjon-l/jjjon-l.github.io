@@ -5,7 +5,6 @@ body {
 	background-color: #c1dad6;
 	background-size: cover;
 	font-family: Arial;
-
 }
 
 h1 {
@@ -22,6 +21,12 @@ p, ul, li {
 
 #center {
 	text-align: center;
+}
+
+#background_test {
+	background-image: url(http://www.getolympus.com/media/wysiwyg/products/epl8/images/tabs_panel_background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 ul {
