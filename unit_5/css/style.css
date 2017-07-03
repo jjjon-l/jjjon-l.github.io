@@ -15,15 +15,33 @@ h1 {
 	text-align: center;
 }
 
+a   {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+nav	{
+	background-color: #292929;
+	text-align: right;
+	padding: 10px 0;
+	margin-right: 150px;
+}
+
+#navlist	{
+	color: #f1f1f1;
+	display: inline-block;
+	padding: 0 15px;
+}
+
 p, ul, li {
 	color:#003333;
 }
 
-#center {
+#centered_list {
 	text-align: center;
 }
 
-#background_test {
+#section {
 	background-image: url(http://www.getolympus.com/media/wysiwyg/products/epl8/images/tabs_panel_background2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -41,7 +59,7 @@ ul {
 	padding-top: 10px;
 }
 
-.slogan {
+#slogan {
 	font-style: italic;
 	font-size: 30px;
 	color:#292929;
@@ -64,6 +82,10 @@ ul {
 	height: auto;
 }
 
+.staffname	{
+	
+}
+
 .container {
 	position: relative;
 	width: 200px;
@@ -79,7 +101,7 @@ ul {
 	padding-top: 0px;
 }
 
-.staff_images {
+.section_2 {
 	display: block;
 	background-color: #f1f1f1;
 	background-position: center;
@@ -87,6 +109,17 @@ ul {
 	border-width: 1px;
 	border-right: 0px;
 	border-left: 0px;
+}
+
+#meettheteam {
+	font-style: italic;
+	font-size: 30px;
+	color:#292929;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 1.5em;
+	margin: 10px 0;
 }
 
 #brendan_overlay {
@@ -177,9 +210,13 @@ ul {
 	margin: auto;
 	line-height: 0px;
 }
-#footer {
+footer {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #f1f1f1;
+	color: #292929;
+}
+
+#footer_email	{
 	color: #292929;
 }
