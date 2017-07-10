@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400i|Open+Sans:600i');
+
+body {
+	text-align: center;
+	background-color: #292929;
+	background-size: cover;
+	font-family: Arial;
+}
+
+h1 {
+	color:#292929;
+	font-style: italic;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+a   {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+nav	{
+	background-color: #292929;
+	text-align: center;
+	padding: 10px 0;
+	margin-right: 0px;
+}
+
+#navlist	{
+	color: #f1f1f1;
+	display: inline-block;
+	padding: 0 15px;
+}
+
+p, ul, li {
+	color:#003333;
+}
+
+#centered_list {
+	text-align: center;
+}
+
+#section {
+	background-image: url(http://www.getolympus.com/media/wysiwyg/products/epl8/images/tabs_panel_background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ul {
+	display: inline-block;
+	text-align: left;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+#neighbors {
+	background-position: center;
+	padding-top: 10px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 30px;
+	color:#292929;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+
+.body_text {
+	padding-top: 10px;
+}
+
+.staffer {
+	width: 200px;
+	padding-right: 20px
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.staffname	{	
+}
+
+.container {
+	position: relative;
+	width: 200px;
+	margin: auto;
+	display: inline-block;
+	padding: 15px;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-top: 0px;
+}
+
+.section_2 {
+	display: block;
+	background-color: #f1f1f1;
+	background-position: center;
+	border-style: solid;
+	border-width: 1px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+#meettheteam {
+	font-style: italic;
+	font-size: 30px;
+	color:#292929;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 1.5em;
+	margin: 10px 0;
+}
+
+#brendan_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 15px;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(https://jjjon-l.github.io/unit_3/images/brendan2.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+#chad_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 15px;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(https://jjjon-l.github.io/unit_3/images/chad-profile.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+#mike_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 15px;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(https://jjjon-l.github.io/unit_3/images/mike-profile.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+#dave_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 15px;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(https://jjjon-l.github.io/unit_3/images/dave-profile.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+.container:hover #brendan_overlay{
+	opacity: 1;
+}
+
+.container:hover #chad_overlay{
+	opacity: 1;
+}
+
+.container:hover #mike_overlay{
+	opacity: 1;
+}
+
+.container:hover #dave_overlay{
+	opacity: 1;
+}
+
+.hover_effect {
+	transform: translate(-50%, -50%)
+	-ms-transform: translate(-50%, -50%);
+}
+
+#staff_shadow {
+	box-shadow: 10px 10px 5px #888888;
+	width: 200px;
+	background-color: #FFFFFF;
+	margin: auto;
+	line-height: 0px;
+}
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f1f1f1;
+	color: #292929;
+}
+
+#footer_email	{
+	color: #292929;
+}
