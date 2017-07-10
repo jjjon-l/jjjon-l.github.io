@@ -22,9 +22,9 @@ a   {
 
 nav	{
 	background-color: #292929;
-	text-align: right;
+	text-align: center;
 	padding: 10px 0;
-	margin-right: 150px;
+	margin-right: 0px;
 }
 
 #navlist	{
@@ -82,8 +82,7 @@ ul {
 	height: auto;
 }
 
-.staffname	{
-	
+.staffname	{	
 }
 
 .container {
