@@ -20,6 +20,10 @@ a   {
 	text-decoration: none;
 }
 
+a:hover {
+	color:red;
+}
+
 header {
 	display: block;
 	background-color: #f1f1f1;
@@ -55,6 +59,7 @@ p, ul, li {
 	background-image: url(http://www.getolympus.com/media/wysiwyg/products/epl8/images/tabs_panel_background2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	float: left;
 }
 
 ul {
@@ -118,6 +123,7 @@ ul {
 	border-width: 1px;
 	border-right: 0px;
 	border-left: 0px;
+	float: right;
 }
 
 #meettheteam {
@@ -225,6 +231,7 @@ footer {
 	padding-bottom: 10px;
 	background-color: #f1f1f1;
 	color: #292929;
+	clear: both;
 }
 
 #footer_email	{
