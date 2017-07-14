@@ -20,6 +20,16 @@ a   {
 	text-decoration: none;
 }
 
+header {
+	display: block;
+	background-color: #f1f1f1;
+	background-position: center;
+	border-style: solid;
+	border-width: 1px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
 nav	{
 	background-color: #292929;
 	text-align: center;
@@ -41,7 +51,7 @@ p, ul, li {
 	text-align: center;
 }
 
-#section {
+#section_1 {
 	background-image: url(http://www.getolympus.com/media/wysiwyg/products/epl8/images/tabs_panel_background2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -90,7 +100,7 @@ ul {
 	width: 200px;
 	margin: auto;
 	display: inline-block;
-	padding: 15px;
+	padding: 15px 0px 5px 0px;
 }
 
 .image {
@@ -100,7 +110,7 @@ ul {
 	padding-top: 0px;
 }
 
-.section_2 {
+#section_2 {
 	display: block;
 	background-color: #f1f1f1;
 	background-position: center;
@@ -209,6 +219,7 @@ ul {
 	margin: auto;
 	line-height: 0px;
 }
+
 footer {
 	padding-top: 10px;
 	padding-bottom: 10px;
