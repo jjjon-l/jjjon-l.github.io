@@ -118,11 +118,11 @@ ul {
 #section_2 {
 	display: block;
 	background-color: #f1f1f1;
-	background-position: center;
 	border-style: solid;
 	border-width: 1px;
 	border-right: 0px;
 	border-left: 0px;
+	background-position: center;
 	float: none;
 }
 
