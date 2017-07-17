@@ -55,11 +55,23 @@ p, ul, li {
 	text-align: center;
 }
 
+.section_wrapper {
+	width: 100%;
+	display: inline-block;
+	background-color: #f1f1f1;
+	overflow: hidden;
+	float: left;
+}
+
 #section_1 {
 	background-image: url(http://www.getolympus.com/media/wysiwyg/products/epl8/images/tabs_panel_background2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	float: left;
+	width: auto;
+	padding: 10px;
+	display: inline-block;
+	overflow: auto;
 }
 
 ul {
@@ -105,7 +117,7 @@ ul {
 	width: 200px;
 	margin: auto;
 	display: inline-block;
-	padding: 15px 0px 5px 0px;
+	padding: 15px 10px 5px 0px;
 }
 
 .image {
@@ -116,14 +128,10 @@ ul {
 }
 
 #section_2 {
-	display: block;
+	display: inline;
 	background-color: #f1f1f1;
-	border-style: solid;
-	border-width: 1px;
-	border-right: 0px;
-	border-left: 0px;
-	background-position: center;
-	float: none;
+	margin: auto;
+	clear: both;
 }
 
 #meettheteam {
@@ -229,11 +237,11 @@ ul {
 footer {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #f1f1f1;
-	color: #292929;
+	background-color: #292929;
+	color: #f1f1f1;
 	clear: both;
 }
 
 #footer_email	{
-	color: #292929;
+	color: #f1f1f1;
 }
