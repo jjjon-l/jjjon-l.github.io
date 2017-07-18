@@ -56,22 +56,21 @@ p, ul, li {
 }
 
 .section_wrapper {
-	width: 100%;
-	display: inline-block;
-	background-color: #f1f1f1;
-	overflow: hidden;
-	float: left;
-}
-
-#section_1 {
 	background-image: url(http://www.getolympus.com/media/wysiwyg/products/epl8/images/tabs_panel_background2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: inline-block;
+	background-color: #f1f1f1;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+}
+
+#section_1 {
 	float: left;
 	width: auto;
 	padding: 10px;
 	display: inline-block;
-	overflow: auto;
 }
 
 ul {
@@ -84,6 +83,10 @@ ul {
 #neighbors {
 	background-position: center;
 	padding-top: 10px;
+}
+
+#logo	{
+	width: 100%;
 }
 
 #slogan {
@@ -114,24 +117,28 @@ ul {
 
 .container {
 	position: relative;
-	width: 200px;
+	width: 100%;
+	max-width: 200px;
 	margin: auto;
 	display: inline-block;
 	padding: 15px 10px 5px 0px;
 }
 
 .image {
-	display: block;
+	display: inline-block;
 	width: 100%;
 	height: auto;
 	padding-top: 0px;
 }
 
 #section_2 {
-	display: inline;
-	background-color: #f1f1f1;
-	margin: auto;
-	clear: both;
+	display: inline-block;
+	width: auto;
+	margin: 20px;
+}
+
+#staff_wrap	{
+	display: inline-block;
 }
 
 #meettheteam {
@@ -149,8 +156,8 @@ ul {
 	position: absolute;
 	top: 15px;
 	bottom: 0;
-	left: 15px;
-	right: 0;
+	left: 0px;
+	right: 10px;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -164,8 +171,8 @@ ul {
 	position: absolute;
 	top: 15px;
 	bottom: 0;
-	left: 15px;
-	right: 0;
+	left: 0px;
+	right: 10px;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -179,8 +186,8 @@ ul {
 	position: absolute;
 	top: 15px;
 	bottom: 0;
-	left: 15px;
-	right: 0;
+	left: 0px;
+	right: 10px;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -194,8 +201,8 @@ ul {
 	position: absolute;
 	top: 15px;
 	bottom: 0;
-	left: 15px;
-	right: 0;
+	left: 0px;
+	right: 10px;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
