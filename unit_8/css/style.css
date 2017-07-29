@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400i|Open+Sans:600i');
+
+body {
+	text-align: center;
+	background-color: #292929;
+	background-size: cover;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+h1 {
+	color:#292929;
+	font-style: italic;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+a   {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+a:hover {
+	color:red;
+}
+
+header {
+	display: block;
+	background-color: #f1f1f1;
+	background-position: center;
+	border-style: solid;
+	border-width: 1px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+nav	{
+	background-color: #292929;
+	text-align: right;
+	padding: 10px 0;
+	margin-right: 90px;
+	font-size: .5em;
+}
+
+#navlist	{
+	color: #f1f1f1;
+	display: inline-block;
+	padding: 0 15px;
+}
+
+p, ul, li {
+	color:#003333;
+}
+
+#centered_list {
+	text-align: center;
+	font-size: .5em;
+}
+
+.section_wrapper {
+	background-image: url(http://www.getolympus.com/media/wysiwyg/products/epl8/images/tabs_panel_background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #f1f1f1;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+	max-width: 1600px;
+}
+
+#section_1 {
+	float: left;
+	width: 40%;
+	min-width: 400px;
+	padding: 10px 25px 0px 25px;
+}
+
+ul {
+	display: inline-block;
+	text-align: left;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+#neighbors {
+	background-position: center;
+	padding-top: 10px;
+}
+
+#mobile_logo	{
+	background-color: #f1f1f1;
+	width: 100%;
+	background-position: center;
+	padding-top: 10px;
+	width: 100%;
+}
+
+#logo_mobile	{
+	width: 100%;
+	max-width: 400px;
+}
+
+#logo	{
+	width: 100%;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 30px;
+	color:#292929;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 1em;
+	margin-bottom: 10px;
+}
+
+.body_text {
+	padding-top: 10px;
+	font-size: .5em;
+}
+
+.staffname	{
+	font-size: .5em;	
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 200px;
+	margin: auto;
+	display: inline-block;
+	padding: 15px 10px 5px 0px;
+}
+
+.image {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	padding-top: 0px;
+}
+
+#section_2 {
+	display: block;
+	width: 55%;
+	float: left;
+	text-align: center;
+	margin: auto;
+}
+
+#staff_wrap_1	{
+	display: block;
+	max-width: 450px;
+	margin: auto;
+	width: 100%;
+}
+
+#staff_wrap_2	{
+	display: block;
+	max-width: 450px;
+	margin: auto;
+	width: 100%;
+}
+
+#meettheteam {
+	font-style: italic;
+	font-size: 30px;
+	color:#292929;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 1.5em;
+	margin: 10px 0;
+	width: 100%;
+}
+
+#brendan_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 0px;
+	right: 10px;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(https://jjjon-l.github.io/unit_3/images/brendan2.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+
+#chad_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 0px;
+	right: 10px;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(https://jjjon-l.github.io/unit_3/images/chad-profile.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+#mike_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 0px;
+	right: 10px;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(https://jjjon-l.github.io/unit_3/images/mike-profile.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+#dave_overlay {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 0px;
+	right: 10px;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-image: url(https://jjjon-l.github.io/unit_3/images/dave-profile.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+.container:hover #brendan_overlay{
+	opacity: 1;
+}
+
+.container:hover #chad_overlay{
+	opacity: 1;
+}
+
+.container:hover #mike_overlay{
+	opacity: 1;
+}
+
+.container:hover #dave_overlay{
+	opacity: 1;
+}
+
+.container img {
+	width: 100%;
+	min-width: 100px;
+}
+
+.hover_effect {
+	transform: translate(-50%, -50%)
+	-ms-transform: translate(-50%, -50%);
+}
+
+#staff_shadow {
+	box-shadow: 10px 10px 5px #888888;
+	width: 200px;
+	background-color: #FFFFFF;
+	margin: auto;
+	line-height: 0px;
+}
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #292929;
+	color: #f1f1f1;
+	clear: both;
+	font-size: .45em;
+}
+
+#footer_email	{
+	color: #f1f1f1;
+}
+
+@media only screen and (max-width: 1030px) {
+	h1 {
+		font-size: 16px;
+	}
+	#slogan {
+		font-size: 14px;
+	}
+	nav {
+		float: none;
+		display: block;
+		font-size: .8em;
+		padding: 1em;
+		text-align: center;
+		margin: 0;
+	} 
+	ul 	{
+		text-align: center;
+		font-style: normal;
+		margin: 0;
+	}
+	#navlist {
+		padding: 10px;
+	}
+	#logo {
+		display: none;
+	}
+	#section_1{
+		float: none;
+		width: 100%;
+		margin: auto;
+		max-width: 800px;
+		min-width: 200px;
+		padding: 0px;
+	}
+	#section_2 {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1030px)	{
+	#mobile_logo	{
+		display: none;
+		width: 100%
+		max-width: 400px;
+		margin: auto;
+	}
+	#logo_mobile	{
+		width: 100%;
+		max-width: 400px;
+		margin: auto;
+	}
+}
