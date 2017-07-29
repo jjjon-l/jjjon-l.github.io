@@ -117,7 +117,7 @@ ul {
 }
 
 .body_text {
-	padding-top: 10px;
+	padding: 10px;
 	font-size: .5em;
 }
 
@@ -283,7 +283,7 @@ footer {
 	color: #f1f1f1;
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1281px) {
 	h1 {
 		font-size: 16px;
 	}
@@ -299,7 +299,7 @@ footer {
 		margin: 0;
 	} 
 	ul 	{
-		text-align: center;
+		text-align: left;
 		font-style: normal;
 		margin: 0;
 	}
@@ -322,7 +322,7 @@ footer {
 	}
 }
 
-@media only screen and (min-width: 1030px)	{
+@media only screen and (min-width: 1281px)	{
 	#mobile_logo	{
 		display: none;
 		width: 100%
