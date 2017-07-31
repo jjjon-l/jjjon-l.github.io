@@ -98,7 +98,7 @@ ul {
 
 #logo_mobile	{
 	width: 100%;
-	max-width: 400px;
+	max-width: 500px;
 }
 
 #logo	{
@@ -292,8 +292,8 @@ footer {
 	}
 	nav {
 		float: none;
-		display: block;
-		font-size: .8em;
+		display: inline-block;
+		font-size: .5em;
 		padding: 1em;
 		text-align: center;
 		margin: 0;
@@ -304,8 +304,7 @@ footer {
 		margin: 0;
 	}
 	#navlist {
-		padding: 10px;
-		display: block;
+		display: inline-block;
 		text-align: center;
 	}
 	#logo {
@@ -324,16 +323,32 @@ footer {
 	}
 }
 
-@media only screen and (min-width: 1281px)	{
+@media only screen and (min-width: 1282px)	{
 	#mobile_logo	{
 		display: none;
 		width: 100%
-		max-width: 400px;
+		max-width: 500px;
 		margin: auto;
 	}
 	#logo_mobile	{
 		width: 100%;
-		max-width: 400px;
+		max-width: 500px;
 		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	nav {
+		float: none;
+		display: block;
+		font-size: 1em;
+		padding: 1em;
+		text-align: center;
+		margin: 0;
+	}
+		#navlist {
+		display: block;
+		text-align: center;
+		padding: 10px;
 	}
 }
