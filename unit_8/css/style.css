@@ -285,10 +285,10 @@ footer {
 
 @media only screen and (max-width: 1281px) {
 	h1 {
-		font-size: 16px;
+		font-size: 24px;
 	}
 	#slogan {
-		font-size: 14px;
+		font-size: 20px;
 	}
 	nav {
 		float: none;
@@ -305,6 +305,8 @@ footer {
 	}
 	#navlist {
 		padding: 10px;
+		display: block;
+		text-align: center;
 	}
 	#logo {
 		display: none;
