@@ -337,7 +337,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 570px) {
 	nav {
 		float: none;
 		display: block;
