@@ -42,16 +42,8 @@ a {
 	color:#BF1E1E;
 }
 
-a.invisible	{
-	color:#BF1E1E;
-}
-
 .ninjablack	{
 	color:#000000;
-}
-
-a.ninjablack	{
-	color: #000000;
 }
 
 a:hover {
@@ -74,6 +66,7 @@ a:hover {
 	display: block;
 	text-align: center;
 	margin:	auto;
+	opacity: 67;
 }
 
 .button	{
